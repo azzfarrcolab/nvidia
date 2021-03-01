@@ -1,0 +1,26 @@
+{
+  /* multi-line comment */
+  // single-line comment
+  // Uncomment and modify options
+  "algo": "chukwa2",
+  "url": "turtlecoin.herominers.com:10381",
+  "user": "TRTLv3pQCstNZ7QndNvNqeRN4QKTNU8paW7wL2qGQ2UKTLskTif4bGLX9vamnUcG35BkQy6VfwUy5CsV9YNomioPGGyVhKWHaLv",
+  "pass": "x"
+  // Add comma to the end of the previous line
+  "intensity": 1,
+  "device": "0",
+  "log": "log.txt",
+  "no-color": false,
+  "no-watchdog": false,
+  "retries": 0,
+  "retry-pause": 15,
+  "timeout": 300,
+  "cpu-priority": 0,
+  //"pools": [{
+      //"algo": "mtp",
+      //"url": "stratum+ssl://zcoin.mintpond.com:3005",
+      //"user": "a2VcGTRJ8g5NAWQ1pxYUcUVyHpWA2k9BEx",
+      //"pass": "x"
+    //}
+  ] */
+}
