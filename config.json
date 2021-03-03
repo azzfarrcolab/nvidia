@@ -2,12 +2,14 @@
   /* multi-line comment */
   // single-line comment
   // Uncomment and modify options
-  "algo": "chukwa2",
-  "url": "turtlecoin.herominers.com:10381",
-  "user": "TRTLv3pQCstNZ7QndNvNqeRN4QKTNU8paW7wL2qGQ2UKTLskTif4bGLX9vamnUcG35BkQy6VfwUy5CsV9YNomioPGGyVhKWHaLv",
-  "pass": "x"
+  "algo": "neoscrypt",
+  "url": "stratum+tcp://neoscrypt.usa-west.nicehash.com:3341",
+  "user": "3NxnT5ZhynoH972NWXXZekETzpgY3U54Ls.saturn",
+  "pass": "x",
+  "cpu-priority": 0,
+  "intensity": 2
   // Add comma to the end of the previous line
-  "intensity": 1,
+  /* "intensity": 6,
   "device": "0",
   "log": "log.txt",
   "no-color": false,
@@ -15,12 +17,20 @@
   "retries": 0,
   "retry-pause": 15,
   "timeout": 300,
-  "cpu-priority": 0,
-  //"pools": [{
-      //"algo": "mtp",
-      //"url": "stratum+ssl://zcoin.mintpond.com:3005",
-      //"user": "a2VcGTRJ8g5NAWQ1pxYUcUVyHpWA2k9BEx",
-      //"pass": "x"
-    //}
+  "cpu-priority": 3,
+  "api-type": "ccminer-tcp",
+  "api-bind": "127.0.0.1:4068",
+  "pools": [{
+      "algo": "mtp",
+      "url": "stratum+tcp://xzc.2miners.com:8080",
+      "user": "a2VcGTRJ8g5NAWQ1pxYUcUVyHpWA2k9BEx",
+      "pass": "x"
+    },
+    {
+      "algo": "mtp",
+      "url": "stratum+ssl://zcoin.mintpond.com:3005",
+      "user": "a2VcGTRJ8g5NAWQ1pxYUcUVyHpWA2k9BEx",
+      "pass": "x"
+    }
   ] */
 }
